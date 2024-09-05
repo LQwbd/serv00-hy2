@@ -9,7 +9,7 @@
 USER=$(whoami)
 USER_HOME=$(readlink -f /home/$USER) # 获取标准化的用户主目录
 WORKDIR="$USER_HOME/.nezha-agent"
-FILE_PATH="$USER_HOME/.s5"
+FILE_PATH="$USER_HOME/.s7"
 HYSTERIA_WORKDIR="$USER_HOME/.hysteria"
 
 # 创建必要的目录，如果不存在
