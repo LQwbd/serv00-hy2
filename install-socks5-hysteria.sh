@@ -26,8 +26,8 @@ generate_password() {
 
 # 设置服务器端口函数
 set_server_port() {
-  read -p "请输入 hysteria2 端口 (面板开放的UDP端口,默认 20026）: " input_port
-  export SERVER_PORT="${input_port:-20026}"
+  read -p "请输入 hysteria2 端口 (面板开放的UDP端口,默认 10086）: " input_port
+  export SERVER_PORT="${input_port:-10086}"
 }
 
 # 下载依赖文件函数
