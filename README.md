@@ -12,7 +12,7 @@
 bash <(curl -s https://raw.githubusercontent.com/LQwbd/serv00-hy2/main/install-socks5-hysteria.sh)
 ```
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/LQwbd/serv00-hy2/main/install-hy2.sh)
+bash <(curl -s https://raw.githubusercontent.com/LQwbd/serv00-hy2/main/hy2.sh)
 ```
 
 
