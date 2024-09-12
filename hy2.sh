@@ -6,7 +6,7 @@ generate_random_password() {
   dd if=/dev/random bs=18 count=1 status=none | base64
 }
 
-GENPASS="$(generate_random_password)"
+GENPASS="$(uuidgen)"
 
 echo_hysteria_config_yaml() {
   cat << EOF
