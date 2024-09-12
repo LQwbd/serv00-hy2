@@ -2,10 +2,6 @@
 
 apk add wget curl git openssh openssl openrc
 
-generate_random_password() {
-  dd if=/dev/random bs=18 count=1 status=none | base64
-}
-
 GENPASS="$(uuidgen)"
 
 echo_hysteria_config_yaml() {
