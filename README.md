@@ -11,9 +11,7 @@
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/LQwbd/serv00-hy2/main/install-socks5-hysteria.sh)
 ```
-```bash
-wget -O hy2.sh https://raw.githubusercontent.com/LQwbd/serv00-hy2/main/hy2.sh && sh hy2.sh
-```
+
 
 
 卸载pm2
